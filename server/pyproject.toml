@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "Majoras Mask Randomizer Tracker"
+version = "0.1.0"
+description = "FastAPI backend for Majora's Mask Randomizer tracker"
+authors = ["nconnel4 <nconnel4@hotmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.79.0"
+uvicorn = "^0.18.2"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.971"
+black = "^22.6.0"
+pylint = "^2.14.5"
+isort = "^5.10.1"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ['src']
+testpaths = ["tests"]
+
+[tool.mypy]
+mypy_path = "src"
+
+[tool.isort]
+profile = "black"
