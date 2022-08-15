@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sword",
+    "name": [
+      "Kokiri Sword",
+      "Razor Sword",
+      "Gilded Sword"
+    ],
+    "image": [
+      "kokiriSword.png",
+      "razorSword.png",
+      "gildedSword.png"
+    ],
+    "type": "progressive",
+    "currentLevel": 0
+  },
+  {
+    "id": "shield",
+    "name": [
+      "Hylian Shield",
+      "Mirror Shield"
+    ],
+    "image": [
+      "hylianShield.png",
+      "mirrorShield.png"
+    ]
+  },
+  {
+    "id": "ocarina",
+    "name": "Ocarina of Time",
+    "image": "ocarina.png"
+  },
+  {
+    "id": "bow",
+    "name": [
+      "Hero's Bow",
+      "Big Quiver",
+      "Biggest Quiver"
+    ],
+    "image": "bow.png",
+    "qty": [
+      30,
+      40,
+      50
+    ]
+  },
+  {
+    "id": "fireArrow",
+    "name": "Fire Arrows",
+    "image": "fireArrow.png"
+  },
+  {
+    "id": "iceArrow",
+    "name": "Ice Arrows",
+    "image": "iceArrow.png"
+  },
+  {
+    "id": "lightArrow",
+    "name": "Light Arrows",
+    "image": "lightArrow.png"
+  }
+]
