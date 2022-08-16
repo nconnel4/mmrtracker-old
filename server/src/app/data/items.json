@@ -1,6 +1,5 @@
 {
   "sword": {
-    "id": "sword",
     "progression": [
       {
         "name": "Kokiri Sword",
@@ -20,7 +19,6 @@
     "type": "item"
   },
   "shield": {
-    "id": "shield",
     "progression": [
       {
         "name": "Hylian Shield",
@@ -36,14 +34,12 @@
     "type": "item"
   },
   "ocarina": {
-    "id": "ocarina",
     "name": "Ocarina of Time",
     "image": "ocarina.png",
     "active": true,
     "type": "item"
   },
   "bow": {
-    "id": "bow",
     "progression": [
       {
         "name": "Hero's Bow",
@@ -65,21 +61,18 @@
     "type": "item"
   },
   "fireArrow": {
-    "id": "fireArrow",
     "name": "Fire Arrows",
     "image": "fireArrow.png",
     "active": false,
     "type": "item"
   },
   "iceArrow": {
-    "id": "iceArrow",
     "name": "Ice Arrows",
     "image": "iceArrow.png",
     "active": false,
     "type": "item"
   },
   "lightArrow": {
-    "id": "lightArrow",
     "name": "Light Arrows",
     "image": "lightArrow.png",
     "active": false,
