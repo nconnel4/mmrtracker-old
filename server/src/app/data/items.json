@@ -82,16 +82,16 @@
     "progression": [
       {
         "name": "Bomb Bag",
-        "image": "bombBag.png"
+        "image": "bomb.png"
       },
       {
         "name": "Big Bomb Bag",
-        "image": "bombBag.png",
+        "image": "bomb.png",
         "quantity": 30
       },
       {
         "name": "Bigger Bomb Bag",
-        "image": "bombBag.png",
+        "image": "bomb.png",
         "quantity": 40
       }
     ],
@@ -329,8 +329,8 @@
     "type": "mask"
   },
   "fierceDietyMask": {
-    "name": "Fierce Diety Mask",
-    "image": "fierceDietyMask.png",
+    "name": "Fierce Deity Mask",
+    "image": "fierceDeityMask.png",
     "active": false,
     "type": "mask"
   },
