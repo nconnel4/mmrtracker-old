@@ -1,5 +1,5 @@
 """Entry point for MMR Tracker backend server."""
-import uvicorn
+import uvicorn  # type: ignore
 from fastapi import FastAPI
 
 from app.api.v1 import api_router
