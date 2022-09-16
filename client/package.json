@@ -56,5 +56,10 @@
     "prettier": "^2.7.1",
     "tsconfig-paths-webpack-plugin": "^4.0.0"
   },
-  "proxy": "http://127.0.0.1:5000/"
+  "proxy": "http://127.0.0.1:5000/",
+  "jest": {
+    "moduleNameMapper": {
+      "@/(.*)": "<rootDir>/src/$1"
+    }
+  }
 }
