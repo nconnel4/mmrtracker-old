@@ -207,10 +207,10 @@
     "image": "allNightMask",
     "type": "mask"
   },
-  "blaskMask": {
-    "id": "blaskMask",
+  "blastMask": {
+    "id": "blastMask",
     "name": "Blast Mask",
-    "image": "blaskMask",
+    "image": "blastMask",
     "type": "mask"
   },
   "stoneMask": {
@@ -333,8 +333,8 @@
     "image": "giantMask",
     "type": "mask"
   },
-  "fierceDietyMask": {
-    "id": "fierceDietyMask",
+  "fierceDeityMask": {
+    "id": "fierceDeityMask",
     "name": "Fierce Deity Mask",
     "image": "fierceDeityMask",
     "type": "mask"
@@ -414,7 +414,7 @@
   "gyorgRemains": {
     "id": "gyorgRemains",
     "name": "Gyorg's Remains",
-    "image": "gyordRemains",
+    "image": "gyorgRemains",
     "type": "remains"
   },
   "twinmoldRemains": {
@@ -449,5 +449,65 @@
     "image": "wallet",
     "type": "item",
     "quantity": 500
+  },
+  "songOfTime": {
+    "id": "songOfTime",
+    "name": "Song of Time",
+    "image": "songOfTime",
+    "type": "song"
+  },
+  "songOfHealing": {
+    "id": "songOfHealing",
+    "name": "songOfHealing",
+    "image": "songOfHealing",
+    "type": "song"
+  },
+  "eponaSong": {
+    "id": "eponaSong",
+    "name": "Epona's Song",
+    "image": "eponaSong",
+    "type": "song"
+  },
+  "songOfSoaring": {
+    "id": "songOfSoaring",
+    "name": "Song of Soaring",
+    "image": "songOfSoaring",
+    "type": "song"
+  },
+  "songOfStorms": {
+    "id": "songOfStorms",
+    "name": "Song of Storms",
+    "image": "songOfStorms",
+    "type": "song"
+  },
+  "sonataOfAwakening": {
+    "id": "sonataOfAwakening",
+    "name": "Sonata of Awakening",
+    "image": "sonataOfAwakening",
+    "type": "song"
+  },
+  "goronLullaby": {
+    "id": "goronLullaby",
+    "name": "Goron Lullaby",
+    "image": "goronLullaby",
+    "type": "song"
+  },
+  "newWaveBossaNova": {
+    "id": "newWaveBossaNova",
+    "name": "New Wave Bossa Nova",
+    "image": "newWaveBossaNova",
+    "type": "song"
+  },
+  "elegyOfEmptiness": {
+    "id": "elegyOfEmptiness",
+    "name": "Elegy of Emptiness",
+    "image": "elegyOfEmptiness",
+    "type": "song"
+  },
+  "oathToOrder": {
+    "id": "oathToOrder",
+    "name": "Oath to Order",
+    "image": "oathToOrder",
+    "type": "song"
   }
 }
