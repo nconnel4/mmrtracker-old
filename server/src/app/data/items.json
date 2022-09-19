@@ -1,421 +1,453 @@
 {
-  "sword": {
-    "progression": [
-      {
-        "name": "Kokiri Sword",
-        "image": "kokiriSword.png"
-      },
-      {
-        "name": "Razor Sword",
-        "image": "razorSword.png"
-      },
-      {
-        "name": "Gilded Sword",
-        "image": "gildedSword.png"
-      }
-    ],
-    "active": false,
-    "currentLevel": -1,
+  "kokiriSword": {
+    "id": "sword",
+    "image": "kokiriSword",
+    "name": "Kokiri Sword",
     "type": "item"
   },
-  "shield": {
-    "progression": [
-      {
-        "name": "Hylian Shield",
-        "image": "hylianShield.png"
-      },
-      {
-        "name": "Mirror Shield",
-        "image": "mirrorShield.png"
-      }
-    ],
-    "active": false,
-    "currentLevel": -1,
+  "razorSword": {
+    "id": "sword",
+    "image": "razorSword",
+    "name": "Razor Sword",
+    "type": "item"
+  },
+  "gildedSword": {
+    "id": "sword",
+    "image": "gildedSword",
+    "name": "Gilded Sword",
+    "type": "item"
+  },
+  "hylianShield": {
+    "id": "shield",
+    "image": "hylianShield",
+    "name": "Hylian Shield",
+    "type": "item"
+  },
+  "mirrorShield": {
+    "id": "shield",
+    "image": "mirrorShield",
+    "name": "Mirror Shield",
     "type": "item"
   },
   "ocarina": {
+    "id": "ocarina",
     "name": "Ocarina of Time",
-    "image": "ocarina.png",
-    "active": true,
+    "image": "ocarina",
     "type": "item"
   },
-  "bow": {
-    "progression": [
-      {
-        "name": "Hero's Bow",
-        "image": "bow.png"
-      },
-      {
-        "name": "Big Quiver",
-        "image": "bow.png",
-        "quantity": 40
-      },
-      {
-        "name": "Larges Quiver",
-        "image": "bow.png",
-        "quantity": 50
-      }
-    ],
-    "active": false,
-    "currentLevel": -1,
+  "heroBow": {
+    "id": "bow",
+    "name": "Hero's Bow",
+    "image": "bow",
     "type": "item"
+  },
+  "bigQuiver": {
+    "id": "bow",
+    "name": "Hero's Bow",
+    "image": "bow",
+    "type": "item",
+    "quantity": 40
+  },
+  "biggestQuiver": {
+    "id": "bow",
+    "name": "Hero's Bow",
+    "image": "bow",
+    "type": "item",
+    "quantity": 50
   },
   "fireArrow": {
+    "id": "fireArrow",
     "name": "Fire Arrows",
-    "image": "fireArrow.png",
-    "active": false,
+    "image": "fireArrow",
     "type": "item"
   },
   "iceArrow": {
+    "id": "iceArrow",
     "name": "Ice Arrows",
-    "image": "iceArrow.png",
-    "active": false,
+    "image": "iceArrow",
     "type": "item"
   },
   "lightArrow": {
+    "id": "lightArrow",
     "name": "Light Arrows",
-    "image": "lightArrow.png",
-    "active": false,
+    "image": "lightArrow",
     "type": "item"
   },
-  "bomb": {
-    "progression": [
-      {
-        "name": "Bomb Bag",
-        "image": "bomb.png"
-      },
-      {
-        "name": "Big Bomb Bag",
-        "image": "bomb.png",
-        "quantity": 30
-      },
-      {
-        "name": "Bigger Bomb Bag",
-        "image": "bomb.png",
-        "quantity": 40
-      }
-    ],
-    "active": false,
-    "currentLevel": -1,
+  "bombBag": {
+    "id": "bomb",
+    "name": "Bomb Bag",
+    "image": "bomb",
     "type": "item"
+  },
+  "bigBombBag": {
+    "id": "bomb",
+    "name": "Bomb Bag",
+    "image": "bomb",
+    "type": "item",
+    "quantity": 30
+  },
+  "biggerBombBag": {
+    "id": "bomb",
+    "name": "Bomb Bag",
+    "image": "bomb",
+    "type": "item",
+    "quantity": 40
   },
   "bombchu": {
+    "id": "bombchu",
     "name": "Bombchu",
-    "image": "bombchu.png",
-    "active": false,
+    "image": "bombchu",
     "type": "item"
   },
   "dekuStick": {
+    "id": "dekuStick",
     "name": "Deku Stick",
-    "image": "dekuStick.png",
-    "active": false,
+    "image": "dekuStick",
     "type": "item"
   },
   "dekuNut": {
+    "id": "dekuNut",
     "name": "Deku Nut",
-    "image": "dekuNut.png",
-    "active": false,
+    "image": "dekuNut",
     "type": "item"
   },
   "magicBean": {
+    "id": "magicBean",
     "name": "Magic Bean",
-    "image": "magicBean.png",
-    "active": false,
+    "image": "magicBean",
     "type": "item"
   },
   "powderKeg": {
+    "id": "powderKeg",
     "name": "Powder Keg",
-    "image": "powderKeg.png",
-    "active": false,
+    "image": "powderKeg",
     "type": "item"
   },
   "pictographBox": {
+    "id": "pictographBox",
     "name": "Pictograph Box",
-    "image": "pictographBox.png",
-    "active": false,
+    "image": "pictographBox",
     "type": "item"
   },
   "lensOfTruth": {
+    "id": "lensOfTruth",
     "name": "Lens of Truth",
-    "image": "lensOfTruth.png",
-    "active": false,
+    "image": "lensOfTruth",
     "type": "item"
   },
   "hookshot": {
+    "id": "hookshot",
     "name": "Hookshot",
-    "image": "hookshot.png",
-    "active": false,
+    "image": "hookshot",
     "type": "item"
   },
   "fairySword": {
+    "id": "greatFairySword",
     "name": "Great Fairy Sword",
-    "image": "greatFairySword.png",
-    "active": false,
+    "image": "greatFairySword",
     "type": "item"
   },
-  "bottle": {
-    "progression": [
-      {
-        "name": "Bottle",
-        "image": "bottle.png",
-        "quantity": 1
-      },
-      {
-        "name": "Bottle",
-        "image": "bottle.png",
-        "quantity": 2
-      },
-      {
-        "name": "Bottle",
-        "image": "bottle.png",
-        "quantity": 3
-      },
-      {
-        "name": "Bottle",
-        "image": "bottle.png",
-        "quantity": 4
-      },
-      {
-        "name": "Bottle",
-        "image": "bottle.png",
-        "quantity": 5
-      },
-      {
-        "name": "Bottle",
-        "image": "bottle.png",
-        "quantity": 6
-      }
-    ],
-    "active": false,
-    "currentLevel": -1,
+  "bottle1": {
+    "id": "bottle",
+    "name": "Bottle",
+    "image": "bottle",
+    "type": "item",
+    "quantity": 1
+  },
+  "bottle2": {
+    "id": "bottle",
+    "name": "Bottle",
+    "image": "bottle",
+    "type": "item",
+    "quantity": 2
+  },
+  "bottle3": {
+    "id": "bottle",
+    "name": "Bottle",
+    "image": "bottle",
+    "type": "item",
+    "quantity": 3
+  },
+  "bottle4": {
+    "id": "bottle",
+    "name": "Bottle",
+    "image": "bottle",
+    "type": "item",
+    "quantity": 4
+  },
+  "bottle5": {
+    "id": "bottle",
+    "name": "Bottle",
+    "image": "bottle",
+    "type": "item",
+    "quantity": 5
+  },
+  "bottle6": {
+    "id": "bottle",
+    "name": "Bottle",
+    "image": "bottle",
+    "type": "item",
+    "quantity": 6
+  },
+  "goldDust": {
+    "id": "goldDust",
+    "name": "Gold Dust",
+    "image": "goldDust",
     "type": "item"
   },
   "postmanHat": {
+    "id": "postmanHat",
     "name": "Postman's Hat",
-    "image": "postmanHat.png",
-    "active": false,
+    "image": "postmanHat",
     "type": "mask"
   },
   "allNightMask": {
+    "id": "allNightMask",
     "name": "All-Night Mask",
-    "image": "allNightMask.png",
-    "active": false,
+    "image": "allNightMask",
     "type": "mask"
   },
   "blaskMask": {
+    "id": "blaskMask",
     "name": "Blast Mask",
-    "image": "blaskMask.png",
-    "active": false,
+    "image": "blaskMask",
     "type": "mask"
   },
   "stoneMask": {
+    "id": "stoneMask",
     "name": "Stone Mask",
-    "image": "stoneMask.png",
-    "active": false,
+    "image": "stoneMask",
     "type": "mask"
   },
   "greatFairyMask": {
+    "id": "greatFairyMask",
     "name": "Great Fairy Mask",
-    "image": "greatFairyMask.png",
-    "active": false,
+    "image": "greatFairyMask",
     "type": "mask"
   },
   "dekuMask": {
+    "id": "dekuMask",
     "name": "Deku Mask",
-    "image": "dekuMask.png",
-    "active": false,
+    "image": "dekuMask",
     "type": "mask"
   },
   "keatonMask": {
+    "id": "keatonMask",
     "name": "Keaton Mask",
-    "image": "keatonMask.png",
-    "active": false,
+    "image": "keatonMask",
     "type": "mask"
   },
   "bremenMask": {
+    "id": "bremenMask",
     "name": "Bremen Mask",
-    "image": "bremenMask.png",
-    "active": false,
+    "image": "bremenMask",
     "type": "mask"
   },
   "bunnyHood": {
+    "id": "bunnyHood",
     "name": "Bunny Hood",
-    "image": "bunnyHood.png",
-    "active": false,
+    "image": "bunnyHood",
     "type": "mask"
   },
   "donGeroMask": {
+    "id": "donGeroMask",
     "name": "Don Gero Mask",
-    "image": "donGeroMask.png",
-    "active": false,
+    "image": "donGeroMask",
     "type": "mask"
   },
   "maskOfScents": {
+    "id": "maskOfScents",
     "name": "Mask of Scents",
-    "image": "maskOfScents.png",
-    "active": false,
+    "image": "maskOfScents",
     "type": "mask"
   },
   "goronMask": {
+    "id": "goronMask",
     "name": "Goron Mask",
-    "image": "goronMask.png",
-    "active": false,
+    "image": "goronMask",
     "type": "mask"
   },
   "romaniMask": {
+    "id": "romaniMask",
     "name": "Romani's Mask",
-    "image": "romaniMask.png",
-    "active": false,
+    "image": "romaniMask",
     "type": "mask"
   },
   "circusLeaderMask": {
+    "id": "circusLeaderMask",
     "name": "Circus Leader's Mask",
-    "image": "circusLeaderMask.png",
-    "active": false,
+    "image": "circusLeaderMask",
     "type": "mask"
   },
   "kafeiMask": {
+    "id": "kafeiMask",
     "name": "Kafei's Mask",
-    "image": "kafeiMask.png",
-    "active": false,
+    "image": "kafeiMask",
     "type": "mask"
   },
   "coupleMask": {
+    "id": "couplesMask",
     "name": "Couple's Mask",
-    "image": "coupleMask.png",
-    "active": false,
+    "image": "coupleMask",
     "type": "mask"
   },
   "maskOfTruth": {
+    "id": "maskOfTruth",
     "name": "Mask of Truth",
-    "image": "maskOfTruth.png",
-    "active": false,
+    "image": "maskOfTruth",
     "type": "mask"
   },
   "zoraMask": {
+    "id": "zoraMask",
     "name": "Zora Mask",
-    "image": "zoraMask.png",
-    "active": false,
+    "image": "zoraMask",
     "type": "mask"
   },
   "kamaroMask": {
+    "id": "kamaroMask",
     "name": "Kamaro's Mask",
-    "image": "kamaroMask.png",
-    "active": false,
+    "image": "kamaroMask",
     "type": "mask"
   },
   "gibdoMask": {
+    "id": "gibdoMask",
     "name": "Gibdo Mask",
-    "image": "gibdoMask.png",
-    "active": false,
+    "image": "gibdoMask",
     "type": "mask"
   },
   "garoMask": {
+    "id": "garoMask",
     "name": "Garo Mask",
-    "image": "garoMask.png",
-    "active": false,
+    "image": "garoMask",
     "type": "mask"
   },
   "captainHat": {
+    "id": "captainsHat",
     "name": "Captain's Hat",
-    "image": "captainHat.png",
-    "active": false,
+    "image": "captainHat",
     "type": "mask"
   },
   "giantMask": {
+    "id": "giantsMask",
     "name": "Giant's Mask",
-    "image": "giantMask.png",
-    "active": false,
+    "image": "giantMask",
     "type": "mask"
   },
   "fierceDietyMask": {
+    "id": "fierceDietyMask",
     "name": "Fierce Deity Mask",
-    "image": "fierceDeityMask.png",
-    "active": false,
+    "image": "fierceDeityMask",
     "type": "mask"
   },
   "bomberNotebook": {
+    "id": "bombersNotebook",
     "name": "Bomber's Notebook",
-    "image": "bomberNotebook.png",
-    "active": false,
+    "image": "bomberNotebook",
     "type": "quest"
   },
   "moonTear": {
+    "id": "moonsTear",
     "name": "Moon's Tear",
-    "image": "moonTear.png",
-    "active": false,
+    "image": "moonTear",
     "type": "quest"
   },
   "landTitleDeed": {
+    "id": "landTitleDeed",
     "name": "Land Title Deed",
-    "image": "landTitleDeed.png",
-    "active": false,
+    "image": "landTitleDeed",
     "type": "quest"
   },
   "swampTitleDeed": {
+    "id": "swampTitleDeed",
     "name": "Swamp Title Deed",
-    "image": "swampTitleDeed.png",
-    "active": false,
+    "image": "swampTitleDeed",
     "type": "quest"
   },
   "mountainTitleDeed": {
+    "id": "mountainTitleDeed",
     "name": "Mountain Title Deed",
-    "image": "mountainTitleDeed.png",
-    "active": false,
+    "image": "mountainTitleDeed",
     "type": "quest"
   },
   "oceanTitleDeed": {
+    "id": "oceanTitleDeed",
     "name": "Ocean Title Deed",
-    "image": "oceanTitleDeed.png",
-    "active": false,
+    "image": "oceanTitleDeed",
     "type": "quest"
   },
   "roomKey": {
+    "id": "roomKey",
     "name": "Room Key",
-    "image": "roomKey.png",
-    "active": false,
+    "image": "roomKey",
     "type": "quest"
   },
   "kafeiLetter": {
+    "id": "kafeiLetter",
     "name": "Letter to Kafei",
-    "image": "kafeiLetter.png",
-    "active": false,
+    "image": "kafeiLetter",
     "type": "quest"
   },
   "pendantOfMemories": {
+    "id": "pendantOfMemories",
     "name": "Pendant of Memories",
-    "image": "pendantOfMemories.png",
-    "active": false,
+    "image": "pendantOfMemories",
     "type": "quest"
   },
   "letterToMama": {
+    "id": "letterToMama",
     "name": "Letter to Mama",
-    "image": "letterToMama.png",
-    "active": false,
+    "image": "letterToMama",
     "type": "quest"
   },
   "odolwaRemains": {
+    "id": "odolwaRemains",
     "name": "Odolwa's Remains",
-    "image": "odolwaRemains.png",
-    "active": false,
+    "image": "odolwaRemains",
     "type": "remains"
   },
   "gohtRemains": {
+    "id": "gohtRemains",
     "name": "Goht's Remains",
-    "image": "gohtRemains.png",
-    "active": false,
+    "image": "gohtRemains",
     "type": "remains"
   },
   "gyorgRemains": {
+    "id": "gyorgRemains",
     "name": "Gyorg's Remains",
-    "image": "gyordRemains.png",
-    "active": false,
+    "image": "gyordRemains",
     "type": "remains"
   },
   "twinmoldRemains": {
+    "id": "twinmoldRemains",
     "name": "Twinmold's Remains",
-    "image": "twinmoldRemains.png",
-    "active": false,
+    "image": "twinmoldRemains",
     "type": "remains"
+  },
+  "magic": {
+    "id": "magic",
+    "name": "Magic",
+    "image": "magic",
+    "type": "item"
+  },
+  "wallet": {
+    "id": "wallet",
+    "name": "Wallet",
+    "image": "wallet",
+    "type": "item",
+    "quantity": 99
+  },
+  "adultWallet": {
+    "id": "wallet",
+    "name": "Adult Wallet",
+    "image": "wallet",
+    "type": "item",
+    "quantity": 200
+  },
+  "giantWallet": {
+    "id": "wallet",
+    "name": "Giant Wallet",
+    "image": "wallet",
+    "type": "item",
+    "quantity": 500
   }
 }

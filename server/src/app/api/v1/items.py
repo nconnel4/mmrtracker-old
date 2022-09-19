@@ -9,7 +9,7 @@ from fastapi import APIRouter
 from app import schemas
 
 router = APIRouter()
-cwd = Path.cwd()
+cwd = Path(__file__).parent.parent.parent
 
 
 @router.get("", response_model=schemas.Items)
@@ -19,7 +19,7 @@ def get_items() -> Any:
     """
     logger = logging.getLogger(__name__)
 
-    json_file = cwd.joinpath("src/app/data/items.json").resolve()
+    json_file = cwd.joinpath("data/items.json").resolve()
     logger.debug(json_file)
     with open(json_file, "r", encoding="utf-8") as source:
         items = json.load(source)

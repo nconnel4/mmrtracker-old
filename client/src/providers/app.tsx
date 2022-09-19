@@ -1,3 +1,4 @@
+import { ChakraProvider } from '@chakra-ui/react';
 import * as React from 'react';
 import { Provider as StoreProvider } from 'react-redux';
 
@@ -7,5 +8,9 @@ type AppProviderProps = {
 };
 
 export const AppProvider = ({ children }: AppProviderProps) => {
-  return <StoreProvider store={store}>{children}</StoreProvider>;
+  return (
+    <StoreProvider store={store}>
+      <ChakraProvider>{children}</ChakraProvider>
+    </StoreProvider>
+  );
 };

@@ -1,28 +1,16 @@
 """Schema file for returning item list"""
-from typing import Dict, List, Optional, Union
+from typing import Dict, Optional
 
-from pydantic import BaseModel, Field
-
-
-class ItemProgression(BaseModel):
-    name: str
-    image: str
-    quantity: Optional[int]
-
-
-class ProgressiveItem(BaseModel):
-    progression: List[ItemProgression]
-    active: bool
-    type: str
-    current_level: int = Field(alias="currentLevel")
+from pydantic import BaseModel
 
 
 class Item(BaseModel):
+    id: str
     name: str
     image: str
-    active: bool
     type: str
+    quantity: Optional[int]
 
 
 class Items(BaseModel):
-    __root__: Dict[str, Union[ProgressiveItem, Item]]
+    __root__: Dict[str, Item]
