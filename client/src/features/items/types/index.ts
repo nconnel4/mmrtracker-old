@@ -6,6 +6,7 @@ export type Item = {
   image: keyof typeof icons;
   type: string;
   quantity?: number;
+  trackerText?: string;
 };
 
 export type Items = {

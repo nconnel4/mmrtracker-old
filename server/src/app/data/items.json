@@ -39,7 +39,8 @@
     "id": "bow",
     "name": "Hero's Bow",
     "image": "bow",
-    "type": "item"
+    "type": "item",
+    "quantity": 30
   },
   "bigQuiver": {
     "id": "bow",
@@ -77,7 +78,8 @@
     "id": "bomb",
     "name": "Bomb Bag",
     "image": "bomb",
-    "type": "item"
+    "type": "item",
+    "quantity": 20
   },
   "bigBombBag": {
     "id": "bomb",
@@ -453,61 +455,71 @@
   "songOfTime": {
     "id": "songOfTime",
     "name": "Song of Time",
-    "image": "songOfTime",
-    "type": "song"
+    "image": "grayNote",
+    "type": "song",
+    "trackerText": "Time"
   },
   "songOfHealing": {
     "id": "songOfHealing",
-    "name": "songOfHealing",
-    "image": "songOfHealing",
-    "type": "song"
+    "name": "Song of Healing",
+    "image": "grayNote",
+    "type": "song",
+    "trackerText": "Heal"
   },
   "eponaSong": {
     "id": "eponaSong",
     "name": "Epona's Song",
-    "image": "eponaSong",
-    "type": "song"
+    "image": "grayNote",
+    "type": "song",
+    "trackerText": "Epona"
   },
   "songOfSoaring": {
     "id": "songOfSoaring",
     "name": "Song of Soaring",
-    "image": "songOfSoaring",
-    "type": "song"
+    "image": "grayNote",
+    "type": "song",
+    "trackerText": "Soar"
   },
   "songOfStorms": {
     "id": "songOfStorms",
     "name": "Song of Storms",
-    "image": "songOfStorms",
-    "type": "song"
+    "image": "grayNote",
+    "type": "song",
+    "trackerText": "Storms"
   },
   "sonataOfAwakening": {
     "id": "sonataOfAwakening",
     "name": "Sonata of Awakening",
-    "image": "sonataOfAwakening",
-    "type": "song"
+    "image": "greenNote",
+    "type": "song",
+    "trackerText": "SOA"
   },
   "goronLullaby": {
     "id": "goronLullaby",
     "name": "Goron Lullaby",
-    "image": "goronLullaby",
-    "type": "song"
+    "image": "redNote",
+    "type": "song",
+    "trackerText": "Goron"
   },
   "newWaveBossaNova": {
     "id": "newWaveBossaNova",
     "name": "New Wave Bossa Nova",
-    "image": "newWaveBossaNova",
-    "type": "song"
+    "image": "blueNote",
+    "type": "song",
+    "trackerText": "Wave"
   },
   "elegyOfEmptiness": {
     "id": "elegyOfEmptiness",
     "name": "Elegy of Emptiness",
-    "image": "elegyOfEmptiness",
-    "type": "song"
+    "image": "orangeNote",
+    "type": "song",
+    "trackerText": "Elegy"
   },
   "oathToOrder": {
     "id": "oathToOrder",
     "name": "Oath to Order",
-    "image": "oathToOrder",
-    "type": "song"
+    "image": "purpleNote",
+    "type": "song",
+    "trackerText": "Oath"
   }
 }

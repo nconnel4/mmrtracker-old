@@ -1,21 +1,14 @@
 import React from 'react';
 
-// import { useGetItemsQuery } from '@/features/items';
-import { Items } from '@/features/items';
+import { MainLayout, Tracker } from '@/components/Layout';
 import { AppProvider } from '@/providers/app';
-
-function WrappedElement() {
-  return (
-    <div>
-      <Items />
-    </div>
-  );
-}
 
 function App() {
   return (
     <AppProvider>
-      <WrappedElement />
+      <MainLayout>
+        <Tracker />
+      </MainLayout>
     </AppProvider>
   );
 }

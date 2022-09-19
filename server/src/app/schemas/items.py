@@ -1,7 +1,7 @@
 """Schema file for returning item list"""
 from typing import Dict, Optional
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class Item(BaseModel):
@@ -10,6 +10,7 @@ class Item(BaseModel):
     image: str
     type: str
     quantity: Optional[int]
+    tracker_text: Optional[str] = Field(alias="trackerText")
 
 
 class Items(BaseModel):

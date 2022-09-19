@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Provider as StoreProvider } from 'react-redux';
 
 import { store } from '@/stores/store';
+import { theme } from '@/themes';
 type AppProviderProps = {
   children: React.ReactNode;
 };
@@ -10,7 +11,7 @@ type AppProviderProps = {
 export const AppProvider = ({ children }: AppProviderProps) => {
   return (
     <StoreProvider store={store}>
-      <ChakraProvider>{children}</ChakraProvider>
+      <ChakraProvider theme={theme}>{children}</ChakraProvider>
     </StoreProvider>
   );
 };

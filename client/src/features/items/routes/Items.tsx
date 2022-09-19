@@ -56,17 +56,34 @@ export const Items = () => {
     <div>
       {items && (
         <div>
-          <SimpleGrid columns={6} id="items">
+          <SimpleGrid columns={6} id="items" spacingY="5px">
             <Item
               item={items.ocarina}
-              active={items.ocarina.id in inventoryList}
+              active={checkActive(items.ocarina.id)}
               handleClick={handleClick}
             />
-            <Item
-              item={items.heroBow}
-              active={checkActive(items.heroBow.id)}
-              handleClick={handleClick}
-            />
+            {itemLevel.bow < 1 && (
+              <Item
+                item={items.heroBow}
+                active={checkActive(items.heroBow.id)}
+                handleClick={handleClick}
+              />
+            )}
+            {itemLevel.bow == 1 && (
+              <Item
+                item={items.bigQuiver}
+                active={checkActive(items.bigQuiver.id)}
+                handleClick={handleClick}
+              />
+            )}
+            {itemLevel.bow == 2 && (
+              <Item
+                item={items.biggestQuiver}
+                active={checkActive(items.biggestQuiver.id)}
+                handleClick={handleClick}
+              />
+            )}
+
             <Item
               item={items.fireArrow}
               active={checkActive(items.fireArrow.id)}
@@ -87,11 +104,27 @@ export const Items = () => {
               active={checkActive(items.moonTear.id)}
               handleClick={handleClick}
             />
-            <Item
-              item={items.bombBag}
-              active={checkActive(items.bombBag.id)}
-              handleClick={handleClick}
-            />
+            {itemLevel.bomb < 1 && (
+              <Item
+                item={items.bombBag}
+                active={checkActive(items.bombBag.id)}
+                handleClick={handleClick}
+              />
+            )}
+            {itemLevel.bomb == 1 && (
+              <Item
+                item={items.bigBombBag}
+                active={checkActive(items.bigBombBag.id)}
+                handleClick={handleClick}
+              />
+            )}
+            {itemLevel.bomb == 2 && (
+              <Item
+                item={items.biggerBombBag}
+                active={checkActive(items.biggerBombBag.id)}
+                handleClick={handleClick}
+              />
+            )}
             <Item
               item={items.bombchu}
               active={checkActive(items.bombchu.id)}
@@ -272,7 +305,7 @@ export const Items = () => {
             {itemLevel.wallet == 2 && (
               <Item
                 item={items.giantWallet}
-                active={checkActive(items.giatnWallet.id)}
+                active={checkActive(items.giantWallet.id)}
                 handleClick={handleClick}
               />
             )}
@@ -288,7 +321,7 @@ export const Items = () => {
             />
           </SimpleGrid>
           <Box padding="24px">
-            <SimpleGrid columns={5} id="songs">
+            <SimpleGrid columns={5} id="songs" spacingY="5px">
               <Item
                 item={items.songOfTime}
                 active={checkActive(items.songOfTime.id)}
@@ -341,7 +374,7 @@ export const Items = () => {
               />
             </SimpleGrid>
           </Box>
-          <SimpleGrid columns={6} id="masks">
+          <SimpleGrid columns={6} id="masks" spacingY="5px">
             <Item
               item={items.postmanHat}
               active={checkActive(items.postmanHat.id)}
@@ -463,7 +496,7 @@ export const Items = () => {
               handleClick={handleClick}
             />
           </SimpleGrid>
-          <SimpleGrid columns={6} id="remains">
+          <SimpleGrid columns={6} id="remains" spacingY="5px">
             <Box h="48px" w="48px" />
             <Item
               item={items.odolwaRemains}
